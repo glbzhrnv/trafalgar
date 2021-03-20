@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Mulish";
+  font-weight: 300;
+  src: url("../fonts/Mulish-Light.woff2");
+}
+@font-face {
+  font-family: "Mulish";
+  font-weight: 400;
+  src: url("../fonts/Mulish-Regular.woff2");
+}
+@font-face {
+  font-family: "Mulish";
+  font-weight: 700;
+  src: url("../fonts/Mulish-Bold.woff2");
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  width: 1247px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container {
+  width: 1247px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.header {
+  margin: 56px 0 80px;
+}
+.header__nav-link {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.header .active {
+  font-weight: 700;
+  opacity: 1;
+}
+.virtual-healthcare__item {
+  max-width: 445px;
+}
+.virtual-healthcare__title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+.virtual-healthcare__description {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  margin-bottom: 45px;
+}
+.virtual-healthcare__btn {
+  padding: 18px 40px;
+  color: white;
+  background: #458FF6;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
